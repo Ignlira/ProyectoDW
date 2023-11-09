@@ -6,58 +6,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">    
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Proyecto</title>
+    <title>Proyectos</title>
 </head>
 <body>
-    <header class="encabezado">
-        <div class="imagen_logo">
-            <img src="./img/logo_softsol.svg" alt="Logotipo">
-            
+    <!--Seccion de navegacion-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="./img/logo_softsol.svg" alt="Logotipo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="./proyectos.html">Proyectos</a>
+            <a class="nav-item nav-link active" href="./nosotros.html">Nosotros</a>
+            <a class="nav-item nav-link active" href="./contacto.html">Contacto</a>
+            <a class="nav-item nav-link active" href="./blog.html">blog</a>
+          </div>
         </div>
-        <nav class="nav_menu">
-            <ul class="navbar_brand">
-                <li class="nav_item">
-                    <a href="./index.html">Home</a>
-                </li>
-                <li class="nav_item">
-                    <a href="./proyectos.html">Proyecto</a>
-                </li>
-                <li class="nav_item">
-                    <a href="./nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav_item">
-                    <a href="./contacto.html">Contacto</a>
-                </li>
-                <li class="nav_item">
-                    <a href="./blog.html">Blog</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <aside class="testimonios">
-        <h3>Testimonios</h3>
-        <blockquote>
-          <p>"Este producto ha cambiado mi vida."</p>
-          <footer>John Doe</footer>
-        </blockquote>
-        <blockquote>
-          <p>"No podría estar más contento con mi compra."</p>
-          <footer>Jane Doe</footer>
-        </blockquote>
-        <blockquote>
-            <p>"Este producto ha cambiado mi vida."</p>
-            <footer>John Doe</footer>
-          </blockquote>
-          <blockquote>
-            <p>"No podría estar más contento con mi compra."</p>
-            <footer>Jane Doe</footer>
-          </blockquote>
-    </aside>
+      </nav>
 
-    <section class="box_proyectos">
-    <div class="container"> 
-        <div class="card" style="width: 16rem;">
+      <!--Seccion de proyectos realizados-->
+    <div class="container-fluid">
+        <div class="card">
             <img src="./img/img01.jpeg" class="card-img-top" alt="img1">
             <div class="card-body">
               <h5 class="card-title">Proyecto 1</h5>
@@ -65,7 +40,7 @@
               <a href="#" class="btn btn-primary">Saber mas</a>
             </div>
         </div>
-        <div class="card" style="width: 16rem;">
+        <div class="card">
             <img src="./img/img02.jpeg" class="card-img-top" alt="img2">
             <div class="card-body">
               <h5 class="card-title">Proyecto 2</h5>
@@ -73,7 +48,7 @@
               <a href="#" class="btn btn-primary">Saber mas</a>
             </div>
         </div>
-        <div class="card" style="width: 16rem;">
+        <div class="card">
             <img src="./img/img03.png" class="card-img-top" alt="img3">
             <div class="card-body">
               <h5 class="card-title">Proyecto 3</h5>
@@ -81,7 +56,7 @@
               <a href="#" class="btn btn-primary">Saber mas</a>
             </div>
         </div>
-        <div class="card" style="width: 16rem;">
+        <div class="card">
             <img src="./img/img03.png" class="card-img-top" alt="img3">
             <div class="card-body">
               <h5 class="card-title">Proyecto 3</h5>
@@ -89,7 +64,7 @@
               <a href="#" class="btn btn-primary">Saber mas</a>
             </div>
         </div>
-        <div class="card" style="width: 16rem;">
+        <div class="card">
             <img src="./img/img01.jpeg" class="card-img-top" alt="img1">
             <div class="card-body">
               <h5 class="card-title">Proyecto 1</h5>
@@ -98,11 +73,28 @@
             </div>
         </div>
     </div>
+        <!--Seccion de Footer-->
+        <footer class="footer-basic">
+            <div class="social">
+                <a href="#">
+                <i class="icon ion-social-instagram"></i></a>
+                <a href="#"><i class="icon ion-social-snapchat"></i></a>
+                <a href="#"><i class="icon ion-social-twitter"></i></a>
+                <a href="#"><i class="icon ion-social-facebook"></i></a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="./index.html">Home</a></li>
+                <li class="list-inline-item"><a href="./proyectos.html">Proyectos</a></li>
+                <li class="list-inline-item"><a href="./nosotros.html">Nosotros</a></li>
+                <li class="list-inline-item"><a href="./contacto.html">Contacto</a></li>
+                <li class="list-inline-item"><a href="./blog.html">Blog</a></li>
+                <li class="list-inline-item"><a href="#">Politicas de privacidad</a></li>
+            </ul>
+                <p class="copyright">Company Name © 2024</p>
+        </footer>
 
-    </section>
-    
-    <footer>
-        <p>Nuestras Redes Sociales</p>
-    </footer>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

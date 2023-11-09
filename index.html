@@ -6,73 +6,85 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">    
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>SoftwareSolutions</title>
+    <title>Proyectos</title>
 </head>
 <body>
-    <header class="encabezado">
-        <div class="imagen_logo">
-            <img src="./img/logo_softsol.svg" alt="Logotipo">
-            
+    <!--Seccion de navegacion-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="./img/logo_softsol.svg" alt="Logotipo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="./proyectos.html">Proyectos</a>
+            <a class="nav-item nav-link active" href="./nosotros.html">Nosotros</a>
+            <a class="nav-item nav-link active" href="./contacto.html">Contacto</a>
+            <a class="nav-item nav-link active" href="./blog.html">blog</a>
+          </div>
         </div>
-        <nav class="nav_menu">
-            <ul class="navbar_brand">
-                <li class="nav_item">
-                    <a href="./index.html">Home</a>
-                </li>
-                <li class="nav_item">
-                    <a href="./proyectos.html">Proyecto</a>
-                </li>
-                <li class="nav_item">
-                    <a href="./nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav_item">
-                    <a href="./contacto.html">Contacto</a>
-                </li>
-                <li class="nav_item">
-                    <a href="./blog.html">Blog</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    
-    <aside class="testimonios">
+      </nav>
+    <!--Seccion de carrusel-->  
+      <section class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/img1.2.png" alt="Primer slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/img1.1.jpg" alt="segundo slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/img1.3.jpeg" alt="tercer slide">
+          </div>
+        </div>
+      </section>
+    <!--Seccion de comentarios-->
+    <div  class="testimonios">
         <h3>Testimonios</h3>
-        <blockquote>
-          <p>"Este producto ha cambiado mi vida."</p>
-          <footer>John Doe</footer>
-        </blockquote>
-        <blockquote>
-          <p>"No podría estar más contento con mi compra."</p>
-          <footer>Jane Doe</footer>
-        </blockquote>
-        <blockquote>
-            <p>"Este producto ha cambiado mi vida."</p>
-            <footer>John Doe</footer>
-          </blockquote>
-          <blockquote>
-            <p>"No podría estar más contento con mi compra."</p>
-            <footer>Jane Doe</footer>
-          </blockquote>
-    </aside>
-
-    <section class="box_principal">
-        <div class="saludo"><h1>Bienvenidos a SoftwareSolutions</h1></div>
-        <div class="video_presentacion">
-            <iframe width="100%" height="500" src="https://www.youtube.com/embed/2sg5XwrrKR4?si=tJTxdWCAJ8yGbUPX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-
-            </iframe>
+        <div class="burbuja_comentario">
+          <p>"Muy satisfecho con el trabajo realizado."</p>
+          <footer>Constanza Fuenzalida</footer>
         </div>
-        <div class="reseña">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa pariatur nihil placeat sint rerum doloremque veniam enim culpa esse. Molestiae earum dolorem consequatur ad officia atque fugit! Dicta, cum officiis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis autem accusantium harum, et dolor magnam cupiditate alias praesentium. Suscipit hic itaque impedit dicta iusto consectetur, consequuntur consequatur neque corporis facilis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis autem accusantium harum, et dolor magnam cupiditate alias praesentium. Suscipit hic itaque impedit dicta iusto consectetur, consequuntur consequatur neque corporis facilis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis autem accusantium harum, et dolor magnam cupiditate alias praesentium. Suscipit hic itaque impedit dicta iusto consectetur, consequuntur consequatur neque corporis facilis?</p>
+        <div class="burbuja_comentario">
+          <p>"Un equipo de trabajo de primer nivel."</p>
+          <footer>Raul Retamal</footer>
         </div>
-    </section>
-    <footer>
-        <p>Nuestras Redes Sociales</p>
-    </footer>
-<canvas class="background"></canvas>
-<script src="./js/particles.min.js"></script>
+        <div class="burbuja_comentario">
+            <p>"muy contento con los resultados."</p>
+            <footer>Monica Godoy</footer>
+          </div>
+          <div class="burbuja_comentario">
+            <p>"El equipo siempre esta atento a como ayudarte."</p>
+            <footer>javier valenzuela</footer>
+          </div>  
+    </div> 
+    <!--Seccion de Footer-->
+    <footer class="footer-basic">
+            <div class="social">
+                <a href="#">
+                    <i class="icon ion-social-instagram"></i></a>
+                    <a href="#"><i class="icon ion-social-snapchat"></i></a>
+                    <a href="#"><i class="icon ion-social-twitter"></i></a>
+                    <a href="#"><i class="icon ion-social-facebook"></i></a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="./index.html">Home</a></li>
+                <li class="list-inline-item"><a href="./proyectos.html">Proyectos</a></li>
+                <li class="list-inline-item"><a href="./nosotros.html">Nosotros</a></li>
+                <li class="list-inline-item"><a href="./contacto.html">Contacto</a></li>
+                <li class="list-inline-item"><a href="./blog.html">Blog</a></li>
+                <li class="list-inline-item"><a href="#">Politicas de privacidad</a></li>
+            </ul>
+            <p class="copyright">Company Name © 2024</p>
+        </footer>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    
 </body>
 </html>
