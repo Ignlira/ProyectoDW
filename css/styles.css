@@ -31,29 +31,22 @@ body {
 }
 /* Header */
 
-.imagen_logo{
-    width: 395px;
-    height: 100px;
-    display: flex;
-    position: absolute;
+.img_logo{
+    width: 40%;
 }
 #navbarNavAltMarkup{
     margin-left: 10rem;
 }
 .navbar-toggler{
-    margin-right: 10rem;
-}
-.nav_menu {
-    width: 600px;
-    display: flex;
-    margin-left: 45rem;
-    position: absolute;
+    margin-right: 10%;
+   
 }
 
-.nav_item {
+.nav-item {
     display: inline-block;
-    margin-top: 30px;
-    margin-left: 30px;     
+    margin-top: 10px;
+    margin-left: 10px; 
+    font-size: 20px;
 }
 
 
