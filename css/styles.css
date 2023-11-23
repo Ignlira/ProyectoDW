@@ -110,8 +110,10 @@ h3 {
     width: 33.3%
 }
 
-.reseña{
-    margin-right: 5rem;
+.texto_descriptivo{
+    font-size: larger;
+    background-color:#f0f0f0;
+    margin: 2rem;
 }
 /* Pagina Proyectos */
 .container-fluid{
@@ -127,6 +129,9 @@ h3 {
 }
 
 /* Pagina Blog */
+.sub_titulo{
+  text-align: center;
+}
 
 .container_blog{
     display: flex;
@@ -155,9 +160,42 @@ h3 {
   background-color: #f0f0f0;   
 }
 
-.texto{
-    display: inline-block;
-    position: relative;
+.card-text-blog{
+   font-size: larger;
+}
+/* Nosotros*/
+.titulo_nosotros{
+  text-align: center;
+  background-color: #ff4949;
+}
+.team-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.team-member {
+  text-align: center;
+  margin: 15px;
+  background-color: #f0f0f0;
+  opacity: 90%;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-member h2 {
+  margin: 10px 0;
+}
+
+.team-member p {
+  color: #555;
 }
 
 /* footer*/
