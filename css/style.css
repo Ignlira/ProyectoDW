@@ -51,6 +51,7 @@ body {
 }
 .navbar .img_logo {
   width: 30%;
+  height: 30%;
 }
 .navbar #navbarNavAltMarkup {
   margin-left: 10rem;
