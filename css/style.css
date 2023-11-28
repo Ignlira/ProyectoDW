@@ -160,14 +160,14 @@ body {
   position: relative;
   width: 100%;
 }
-.container_blog .container_img .container_texto {
+.container_blog .container_texto {
   display: inline-block;
   position: relative;
   width: 50%;
   margin-top: 2rem;
   background-color: #f0f0f0;
 }
-.container_blog .container_img .container_texto .card-text-blog {
+.container_blog .container_texto .card-text-blog {
   font-size: larger;
 }
 

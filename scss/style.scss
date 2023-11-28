@@ -145,24 +145,27 @@ body {
         display: inline-block;
         position: relative;
         margin-top: 1rem;
-        width: 35%;
+        width: 40rem;
+        background-color: #0e0e0e;
         .img_blog{
             display: inline-block;
             position: relative;
-            width: 100%;   
+            width: 20rem;   
         }
-        .container_texto{
-            display: inline-block;
-            position: relative;
-            width: 50%;
-            margin-top: 2rem; 
-            background-color: #f0f0f0; 
-            .card-text-blog{
-                font-size: larger;
-            }  
-        }
+        
     }
-} 
+    .container_texto{
+        display: inline-block;
+        position: relative;
+        width: 50%;
+        margin-top: 2rem; 
+        background-color: #f0f0f0; 
+        .card-text-blog{
+            font-size: larger;
+        }  
+    }    
+}
+ 
 /* Nosotros*/
 .titulo_nosotros{
     text-align: center;
