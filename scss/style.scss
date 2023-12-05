@@ -110,18 +110,16 @@ body {
 .saludo{
     text-align: center;
 }
-.box_principal{
-    display: inline-block;
-    position: absolute;
-    margin: 2rem;   
+.box_texto_descriptivo{
     width: 100%;
-    
+    background-color:#eeeeee;
     .texto_descriptivo{
+        background-color:#eeeeee;
         font-size: larger;
-        background-color:#f0f0f0;
-        margin: 2rem;
+        text-align: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
-
 }
 /* Pagina Proyectos */
 .container-fluid{
@@ -134,6 +132,16 @@ body {
          
     } 
 }
+
+.btn-primary{
+    background-color: #ff4949;
+    border: #ff4949;
+    &:hover {
+        background-color: #ff4949;
+        opacity: 0.8;
+}
+}
+
 /* Pagina Blog */
 .sub_titulo{
     text-align: center;
@@ -151,7 +159,7 @@ body {
         .img_blog{
             display: inline-block;
             position: relative;
-            width: 20rem;   
+               
         }        
     }
     .container_texto{
@@ -159,7 +167,7 @@ body {
         position: relative;
         width: 50%;
         margin-top: 2rem; 
-        background-color: #f0f0f0; 
+        background-color: #eeeeee; 
         .card-text-blog{
             font-size: larger;
         }  
@@ -180,7 +188,7 @@ body {
     .team-member {
         text-align: center;
         margin: 15px;
-        background-color: #f0f0f0;
+        background-color: #eeeeee;
         opacity: 90%;
         img {
             width: 150px;
@@ -192,7 +200,7 @@ body {
             margin: 10px 0;
           }
         p {
-            color: #555;
+            color: #000000;
         }
     }
 }
