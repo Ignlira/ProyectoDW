@@ -49,12 +49,11 @@ body {
   padding-bottom: 0%;
   padding-top: 0%;
 }
-.navbar .img_logo {
-  width: 30%;
-  height: 30%;
+.navbar .logo {
+  width: 40%;
 }
 .navbar #navbarNavAltMarkup {
-  margin-left: 10rem;
+  margin-left: 2rem;
 }
 .navbar .navbar-toggler {
   margin-right: 10%;
