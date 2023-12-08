@@ -154,18 +154,20 @@ body {
         display: inline-block;
         position: relative;
         margin-top: 1rem;
-        width: 40rem;
-        background-color: #0e0e0e;
+        width: 60%;
+
         .img_blog{
             display: inline-block;
             position: relative;
+            width: 90%;
+            
                
         }        
     }
     .container_texto{
         display: inline-block;
         position: relative;
-        width: 50%;
+        width: 30%;
         margin-top: 2rem; 
         background-color: #eeeeee; 
         .card-text-blog{
